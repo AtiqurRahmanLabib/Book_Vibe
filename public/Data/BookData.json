@@ -1,0 +1,162 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "image": "https://ibb.co.com/xqy2Zb3N",
+        "review": "A thought-provoking novel that delves into the struggles of adolescence and identity.",
+        "totalPages": 277,
+        "rating": 4.5,
+        "category": "Fiction",
+        "tags": [
+            "Young Adult",
+            "Identity"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 2,
+        "bookName": "Money: Master the Game",
+        "author": "Tony Robbins",
+        "image": "https://example.com/images/money-master-the-game.jpg",
+        "review": "A comprehensive guide to financial success with actionable insights from industry experts.",
+        "totalPages": 688,
+        "rating": 4.7,
+        "category": "Personal Finance",
+        "tags": [
+            "Finance",
+            "Self-Help"
+        ],
+        "publisher": "Simon & Schuster",
+        "yearOfPublishing": 2014
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Subtle Art of Not Giving a F***",
+        "author": "Mark Manson",
+        "image": "https://example.com/images/subtle-art.jpg",
+        "review": "A brutally honest self-help book that challenges conventional wisdom about happiness.",
+        "totalPages": 224,
+        "rating": 4.6,
+        "category": "Self-Help",
+        "tags": [
+            "Psychology",
+            "Growth"
+        ],
+        "publisher": "HarperOne",
+        "yearOfPublishing": 2016
+    },
+    {
+        "bookId": 4,
+        "bookName": "Atomic Habits",
+        "author": "James Clear",
+        "image": "https://example.com/images/atomic-habits.jpg",
+        "review": "An insightful guide on how small daily changes can lead to remarkable results over time.",
+        "totalPages": 320,
+        "rating": 4.9,
+        "category": "Productivity",
+        "tags": [
+            "Self-Improvement",
+            "Habit Formation"
+        ],
+        "publisher": "Avery",
+        "yearOfPublishing": 2018
+    },
+    {
+        "bookId": 5,
+        "bookName": "The Alchemist",
+        "author": "Paulo Coelho",
+        "image": "https://example.com/images/the-alchemist.jpg",
+        "review": "A magical tale about following one's dreams and discovering one’s destiny.",
+        "totalPages": 208,
+        "rating": 4.8,
+        "category": "Fiction",
+        "tags": [
+            "Adventure",
+            "Philosophy"
+        ],
+        "publisher": "HarperCollins",
+        "yearOfPublishing": 1988
+    },
+    {
+        "bookId": 6,
+        "bookName": "American Gods",
+        "author": "Neil Gaiman",
+        "image": "https://example.com/images/american-gods.jpg",
+        "review": "An epic fantasy that explores mythology, belief, and the clash between old and new gods.",
+        "totalPages": 635,
+        "rating": 4.7,
+        "category": "Fantasy",
+        "tags": [
+            "Mythology",
+            "Fiction"
+        ],
+        "publisher": "William Morrow",
+        "yearOfPublishing": 2001
+    },
+    {
+        "bookId": 7,
+        "bookName": "The Dating Playbook for Men",
+        "author": "Andrew Ferebee",
+        "image": "https://example.com/images/dating-playbook.jpg",
+        "review": "A practical guide to improving social confidence and mastering attraction.",
+        "totalPages": 234,
+        "rating": 4.5,
+        "category": "Relationships",
+        "tags": [
+            "Dating",
+            "Advice"
+        ],
+        "publisher": "AMZ Publishing",
+        "yearOfPublishing": 2015
+    },
+    {
+        "bookId": 8,
+        "bookName": "The Psychology of Money",
+        "author": "Morgan Housel",
+        "image": "https://example.com/images/psychology-of-money.jpg",
+        "review": "Explores how emotions and behavior influence financial decision-making.",
+        "totalPages": 256,
+        "rating": 4.9,
+        "category": "Finance",
+        "tags": [
+            "Money",
+            "Behavior"
+        ],
+        "publisher": "Harriman House",
+        "yearOfPublishing": 2020
+    },
+    {
+        "bookId": 9,
+        "bookName": "The Spine of the Dragon",
+        "author": "Kevin J. Anderson",
+        "image": "https://example.com/images/spine-of-the-dragon.jpg",
+        "review": "A thrilling epic fantasy adventure with intricate world-building.",
+        "totalPages": 528,
+        "rating": 4.6,
+        "category": "Fantasy",
+        "tags": [
+            "Epic Fantasy",
+            "Adventure"
+        ],
+        "publisher": "Tor Books",
+        "yearOfPublishing": 2019
+    },
+    {
+        "bookId": 10,
+        "bookName": "Rich Dad Poor Dad",
+        "author": "Robert Kiyosaki",
+        "image": "https://example.com/images/rich-dad-poor-dad.jpg",
+        "review": "Challenges traditional financial thinking and promotes financial independence.",
+        "totalPages": 336,
+        "rating": 4.8,
+        "category": "Personal Finance",
+        "tags": [
+            "Wealth",
+            "Education"
+        ],
+        "publisher": "Plata Publishing",
+        "yearOfPublishing": 1997
+    }
+]
