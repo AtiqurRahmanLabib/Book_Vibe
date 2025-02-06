@@ -8,7 +8,7 @@ const Navbar = () => {
                 </div>
                 <div className="flex gap-3">
                     <NavLink
-                        to="/home"
+                        to="/"
                         className={({ isActive }) =>
                             `rounded-[8px] w-[92px] h-[49px] border text-[18px] font-semibold text-center pt-2.5 
                             ${isActive ? 'border-[#23BE0A] text-[#23BE0A]' : 'border-none text-[#131313]/80'}`
