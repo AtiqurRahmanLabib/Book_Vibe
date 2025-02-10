@@ -1,7 +1,13 @@
 import { useLoaderData, useParams } from "react-router-dom";
+import { saveBookApplication } from "../utils/LocalStorage";
 import Navbar from "./Navbar";
-
+import { ToastContainer, toast } from 'react-toastify';
 const Details = () => {
+    const handleBookApply = () => {
+        saveBookApplication(idInt);
+        notify();
+    };
+    const notify = () => toast("Book added to read list");
     const { bookId } = useParams();
     const books = useLoaderData();
     const idInt = parseInt(bookId, 10);
@@ -56,16 +62,17 @@ const Details = () => {
 
 
                         <div className="w-[144px] h-[140px] ">
-                            <p className="text-[#131313] font-semibold text-[16px]">{rating}</p>
+                            <p className="text-[#131313] font-semibold text-[16px]">{totalPages}</p>
                             <p className="text-[#131313] font-semibold text-[16px]">{publisher}</p>
                             <p className="text-[#131313] font-semibold text-[16px]">{yearOfPublishing}</p>
                             <p className="text-[#131313] font-semibold text-[16px]">{rating}</p>
                         </div>
                     </div>
-                        <div className="flex gap-5">
-                            <button className="font-semibold text-[18px] w-[101px] h-[57px] rounded-[8px]  border border-[#131313]/30 bg-[131313]/30 text-[#131313] ">Read</button>
-                            <button className="text-[18px] font-semibold w-[128px] h-[57px] bg-[#50B1C9] text-[#FFFFFF] rounded-[8px]">Wishlist</button>
-                        </div>
+                    <div className="flex gap-1">
+                        <button onClick={handleBookApply} className="font-semibold text-[18px] w-[101px] h-[57px] rounded-[8px]  border border-[#131313]/30 bg-[131313]/30 text-[#131313] ">Read</button>
+                        <ToastContainer />
+                        <button className="text-[18px] font-semibold w-[128px] h-[57px] bg-[#50B1C9] text-[#FFFFFF] rounded-[8px]">Wishlist</button>
+                    </div>
 
                 </div>
             </div>

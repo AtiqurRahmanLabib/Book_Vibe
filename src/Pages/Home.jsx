@@ -8,8 +8,6 @@ import BookCard from "../components/BookCard";
 
 const Home = () => {
     const bookDatas = useLoaderData();
-    console.log(bookDatas)
-
     return (
         <div>
             <Navbar></Navbar>
